@@ -31,7 +31,7 @@ campo_cpf.send_keys('30647741000120')
 
 #Preenche a senha EXCLUIR A SENHA SE POSTAR NO GITHUB!!!!!!!
 campo_senha = driver.find_element(By.ID, "Login_Password")
-campo_senha.send_keys('LVVA170980')
+campo_senha.send_keys('xxxxxxxxx')
 
 #Clica no botão enter
 acessar = driver.find_element(By.XPATH, '//*[@id="conteudo-principal"]/form/input[6]').click()
