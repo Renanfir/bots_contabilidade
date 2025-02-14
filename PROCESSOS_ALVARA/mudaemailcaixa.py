@@ -1,0 +1,17 @@
+import pyautogui as bot
+
+bot.click(586, 489)
+bot.click(586, 489)
+bot.press('tab')
+bot.write('LVA170980')
+bot.press('tab')
+bot.press('tab')
+bot.write('47991170980')
+bot.press('tab')
+bot.press('tab')
+bot.press('tab')
+bot.write('aureorth@gmail.com')
+bot.press('tab')
+bot.press('tab')
+bot.press('tab')
+bot.press('enter')
