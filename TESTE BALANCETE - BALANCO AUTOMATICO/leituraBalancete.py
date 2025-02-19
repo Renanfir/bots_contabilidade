@@ -17,7 +17,7 @@ import pyautogui as bot
 bot.click(1806, 16)
 bot.sleep(1.5)
 
-path = r'C:\Users\Usuario\PROGRAMACAO_CENTRAL\python\bots_Contabilidade\bots_contabilidade\TESTE BALANCETE - BALANCO AUTOMATICO\MEQ.pdf'
+path = r'C:\Users\Usuario\PROGRAMACAO_CENTRAL\python\bots_Contabilidade\bots_contabilidade\TESTE BALANCETE - BALANCO AUTOMATICO\SM2.pdf'
 
 listaContas = [
     "6303", "6305", "1179", "3212", "6306", "6304", "2113", "6511", "6497", "6474", "6468", 
@@ -25,7 +25,9 @@ listaContas = [
     "6706", "1234", "1235", "50055", "7008", "7114", "1000", "65123","58271","1101","1518",
     "886", "6831", "6669", "66111", "57997", "7048", "7108","6528", "6401", "1680","66401",
     "6818","3215","3062","57981","710808","57171","67932","67151","68452","7115","7121",
-    "6534","2116","2654","7077","66275","66418","2951"
+    "6534","2116","2654","7077","66275","66418","2951","66097","1258","6500","6729",
+    "1254","66281"
+
 ]
 
 
