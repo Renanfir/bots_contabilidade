@@ -7,7 +7,7 @@ import pyautogui as bot
 
 try:
     while True:
-        caminho_arquivo = r'C:\Users\Usuario\PROGRAMACAO_CENTRAL\python\bots_Contabilidade\Genesys_FAT.xls'
+        caminho_arquivo = r'C:\Users\Usuario\PROGRAMACAO_CENTRAL\python\bots_Contabilidade\bots_contabilidade\Genesys_FAT03.xls'
         workbook = xlrd.open_workbook(caminho_arquivo)
         sheet = workbook.sheet_by_name('dctfweb')
         bot.click(1800, 18)             #sai da tela do vscode
@@ -30,7 +30,7 @@ try:
             bot.click(169, 662)         #Informar fechamento sem movimento
             bot.sleep(1)
             bot.click(128, 418)         #Período de apuração
-            bot.write('022025')
+            bot.write('032025')
             bot.moveTo(938, 335)        
             bot.click(938, 335)         #Clica fora dos campos
             bot.sleep(0.5)
@@ -51,7 +51,7 @@ try:
             bot.sleep(0.5)
             bot.click(131, 443)         #Período
             bot.sleep(0.5)
-            bot.write('022025')
+            bot.write('032025')
             bot.sleep(0.5)
             bot.click(336, 445)         #CNPJ
             bot.write(value0)
@@ -81,7 +81,7 @@ try:
             bot.press('tab')
             bot.press('tab')
             bot.press('tab')
-            bot.write('11022025')
+            bot.write('13032025')
             bot.press('tab')
             bot.write('1')
             bot.press('tab')

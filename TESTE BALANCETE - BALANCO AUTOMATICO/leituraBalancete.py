@@ -17,7 +17,7 @@ import pyautogui as bot
 bot.click(1806, 16)
 bot.sleep(1.5)
 
-path = r'C:\Users\Usuario\PROGRAMACAO_CENTRAL\python\bots_Contabilidade\bots_contabilidade\TESTE BALANCETE - BALANCO AUTOMATICO\SM2.pdf'
+path = r'C:\Users\Usuario\PROGRAMACAO_CENTRAL\python\bots_Contabilidade\bots_contabilidade\TESTE BALANCETE - BALANCO AUTOMATICO\TRANSP.pdf'
 
 listaContas = [
     "6303", "6305", "1179", "3212", "6306", "6304", "2113", "6511", "6497", "6474", "6468", 
